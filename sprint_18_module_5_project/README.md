@@ -1,4 +1,4 @@
-# 🎮 Game Market Analytics Dashboard (Apache Superset)
+# 🎮 Дашборд: Индустрия интерактивных развлечений
 
 Учебный проект: интерактивный BI-дашборд в **Apache Superset** для анализа рынка видеоигр — динамики цен, установок, достижений и вовлечённости игроков.
 
@@ -18,8 +18,6 @@
 ## 🗂️ Модель данных
 
 Единый датасет в Superset построен на основе шести связанных таблиц: `games`, `players`, `players_games`, `prices`, `achievements`, `history`.
-
-![Data model](images/1787920118508_image.png)
 
 | Таблица | Ключевые поля | Назначение |
 |---|---|---|
@@ -61,7 +59,7 @@
 - Распределение игр по жанрам
 - Календарь игровых релизов
 
-![Games analysis](images/games-analysis.jpg)
+![Games analysis](screenshots/games-analysis.jpg)
 
 ### 2. Анализ игроков
 
@@ -77,7 +75,7 @@
 - Распределение количества игроков по играм и платформам
 - Изменение количества игроков год к году (YoY) по платформам
 
-![Players analysis](images/players-analysis.jpg)
+![Players analysis](screenshots/players-analysis.jpg)
 
 ### 3. Стоимость игр
 
@@ -88,7 +86,7 @@
 - Динамика изменения средней цены по платформам
 - Изменение цен по играм, %
 
-![Cost of games](images/cost-games.jpg)
+![Cost of games](screenshots/cost-games.jpg)
 
 ### 4. Игровые достижения
 
@@ -99,7 +97,7 @@
 - Средний % редких достижений по жанру
 - Количество достижений по жанру и платформе
 
-![Game achievements](images/game-achievements.jpg)
+![Game achievements](screenshots/game-achievements.jpg)
 
 ---
 
@@ -147,17 +145,10 @@
 
 ```
 .
-├── images/                 # скриншоты дашборда и модель данных
+├── screenshots/                 # скриншоты дашборда
 │   ├── games-analysis.jpg
 │   ├── players-analysis.jpg
 │   ├── cost-games.jpg
 │   ├── game-achievements.jpg
-│   └── data-model.png
 └── README.md
 ```
-
----
-
-## 📌 Статус
-
-Учебный проект, выполнен в рамках курса по BI-аналитике / Apache Superset.
