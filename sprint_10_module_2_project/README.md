@@ -1,4 +1,4 @@
-# Исследование стартапов: анализ венчурного финансирования
+# Исследование стартапов
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
