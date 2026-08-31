@@ -69,7 +69,3 @@ Python, pandas, NumPy, Matplotlib, Seaborn — в среде Jupyter Notebook.
 ├── startup-research.ipynb   # Jupyter Notebook с полным ходом анализа
 └── README.md                 # описание проекта
 ```
-
-## Автор
-
-Панов Андрей
